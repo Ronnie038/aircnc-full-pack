@@ -3,4 +3,4 @@ aircnc-full-pack
 # admin : admin@aircnc.com
 # pass: admin-aircnc
 # host : host@aircnc.com
-# pass : host@aircnc.com
+# pass : host-aircnc
