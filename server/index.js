@@ -10,7 +10,10 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 // Middlewares
-const whitelist = ['http://localhost:3000', 'https://aircnc-a740e.web.app'];
+const whitelist = [
+	'http://localhost:3000',
+	'https://project-aircnc-c93d9.web.app',
+];
 const corsOptions = {
 	origin: function (origin, callback) {
 		if (!origin || whitelist.indexOf(origin) !== -1) {
